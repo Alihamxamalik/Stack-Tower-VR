@@ -1,0 +1,19 @@
+{
+    "name": "StackTower.XR",
+    "rootNamespace": "StackTower.XR",
+    "references": [
+        "StackTower",
+        "Oculus.VR",
+        "Oculus.Interaction",
+        "Oculus.Interaction.OVR"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

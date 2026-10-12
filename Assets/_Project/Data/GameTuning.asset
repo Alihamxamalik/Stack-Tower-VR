@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659e006581ee349d8b1b5e1e094750ae, type: 3}
+  m_Name: GameTuning
+  m_EditorClassIdentifier: 
+  settleSpeed: 0.05
+  settleAngularSpeed: 12
+  settleTime: 0.5
+  releaseVelocityScale: 0.3
+  maxReleaseSpeed: 1.5
+  maxReleaseAngularSpeed: 180
+  maxDepenetrationSpeed: 1.5
+  solverIterations: 10
+  solverVelocityIterations: 4
+  softAlignment: 1
+  alignRadius: 0.03
+  alignAngle: 10
+  alignDuration: 0.12
+  alignSnapDownDistance: 0.06
+  alignToPedestal: 1
+  settleAngularDamping: 12
+  settleDampingDuration: 0.3
+  trackingLostHoldTime: 0.5
+  rotationSnapStep: 15
+  ghostMaxDrop: 2.5
+  ghostColor: {r: 1, g: 1, b: 1, a: 0.28}
+  ghostAlignedColor: {r: 0.45, g: 1, b: 0.6, a: 0.4}
+  pointsPerCentimetre: 1
+  precisionBonus: 5
+  precisionRadius: 0.02
+  comboWindow: 3
+  comboMultipliers:
+  - 1.5
+  - 2
+  - 3
+  timeBonusPerSecond: 5
+  wobbleSpeed: 0.1
+  wobbleMinDuration: 0.2
+  wobbleCalmTime: 0.4
+  wobbleTint: {r: 1, g: 0.55, b: 0.15, a: 1}
+  failTopDropFraction: 0.5
+  failMinHeight: 0.25
+  fallMargin: 0.03
+  lostBlockLinger: 0.7
+  freezeLayers: 5
+  bigHitSpeed: 2.5
+  refreezeDelay: 1.5
