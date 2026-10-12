@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2067cb413f41d48058eaf48c6e567d08, type: 3}
+  m_Name: TimedTower
+  m_EditorClassIdentifier: 
+  mode: 0
+  displayName: Timed Tower
+  duration: 90
+  introDuration: 5
+  firstSpawnTime: 1.5
+  learnEnd: 20
+  finalRushStart: 70
+  countdownSeconds: 10
+  targetHeight: 0
+  canFail: 1
+  blocks:
+  - definition: {fileID: 11400000, guid: 8626b1d48040a4b429c8471dee347f1f, type: 2}
+    unlockTime: 0
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: a2031b28a94394c0eaee930ac47f54dc, type: 2}
+    unlockTime: 20
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: 41470bb961ff1440c95fda433639aeba, type: 2}
+    unlockTime: 32
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: f15403af9a53a4d1f952677a159ad2b6, type: 2}
+    unlockTime: 38
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: 5748e306854b347e5a8afe0be8ef699d, type: 2}
+    unlockTime: 46
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: 723d84e1f6ae144889567685232cd07a, type: 2}
+    unlockTime: 52
+    weightScale: 1
+  - definition: {fileID: 11400000, guid: 3e115b364e64b463b9d6ddd4d3bafd63, type: 2}
+    unlockTime: 20
+    weightScale: 1
+  openingSequence: []
+  goldenFinalRushScale: 4
+  spawnDelayLearn: 0.6
+  spawnDelayRamp: 0.3
+  spawnDelayFinalRush: 0.1
+  useFixedSeed: 0
+  seed: 12345
