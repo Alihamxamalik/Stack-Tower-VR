@@ -2,6 +2,10 @@
 
 A hand-tracked block stacking game for Meta Quest. Pick blocks up with your bare hands, stack them as high as you can in 90 seconds, and try not to knock the tower over.
 
+![A tower of stacked blocks topped by a wedge, with the time, score, height and combo panel on the left and the next block waiting on the right](docs/screenshots/hero.png)
+
+<p align="center"><sub>Screenshots show the virtual room view and were captured in the Unity editor, so the player's hands are not in them.</sub></p>
+
 **[Download the latest APK](https://github.com/Alihamxamalik/Stack-Tower-VR/releases/latest)** · Version 0.1.0 · Built with Unity 6 and the Meta XR SDK
 
 > This is an early build. One game mode (Timed Tower) is playable. Sounds are placeholders and the art is simple shapes. More modes are planned, see [Roadmap](#roadmap).
@@ -26,7 +30,16 @@ A run of Timed Tower lasts 90 seconds and gets harder as it goes:
 
 The run ends when time is up, or early if the tower falls (the top drops to less than half of the best height you reached). The end card shows your score, your height, and your personal bests, with buttons to play again or go back to the menu.
 
+<p align="center">
+  <img src="docs/screenshots/start.png" width="32%" alt="Start of a run: the first cube waits on its shelf and the panel says to pinch the block to pick it up">
+  <img src="docs/screenshots/final-rush.png" width="32%" alt="Final rush: the timer shows 8 in red next to the tower">
+  <img src="docs/screenshots/end-card.png" width="32%" alt="End card: Time's up, score 403, height 1.11 m, new best, with Play again and Menu buttons">
+</p>
+<p align="center"><em>The first block and its hint, the red clock of the last ten seconds, and the end card.</em></p>
+
 ## Blocks
+
+![The seven block types side by side: Standard, Plank, Golden, Wedge, Cylinder, Heavy and Slippery](docs/screenshots/blocks.png)
 
 | Block | Appears at | What is different about it |
 | --- | --- | --- |
@@ -46,7 +59,7 @@ The run ends when time is up, or early if the tower falls (the top drops to less
 - **Combo multiplier** for placing blocks within 3 seconds of each other: x1.5, then x2, then x3. A dropped block or a wobbling tower resets it.
 - **+50** for each golden block.
 
-Your best score and best height are saved on the headset. A glowing ring around the tower marks your best height, so you can see when you are about to beat it.
+Your best score and best height are saved on the headset. A glowing ring around the tower marks your best height, so you can see when you are about to beat it. The ring is blue until you pass it, then turns gold and climbs with the tower.
 
 ## Made for bare hands
 
@@ -59,6 +72,12 @@ Hand tracking is less precise than a controller, so the game quietly helps:
 - **Lost tracking hold.** If the headset loses sight of your hand, the block freezes in place for half a second instead of dropping.
 - **Wobble warning.** The tower tints orange and a sound plays when it starts to sway.
 
+<p align="center">
+  <img src="docs/screenshots/ghost-off.png" width="49%" alt="A cylinder held off-centre above the tower, with a pale ghost showing where it would land">
+  <img src="docs/screenshots/ghost-on.png" width="49%" alt="The same cylinder held over the centre, with the ghost now green">
+</p>
+<p align="center"><em>The ghost preview: off-centre on the left, lined up (green) on the right.</em></p>
+
 Controllers also work. The headset switches by itself when you pick them up, and you get haptic pulses on grab, placement and wobble.
 
 ## Settings
@@ -70,6 +89,8 @@ The main menu has large buttons you press with a fingertip:
 - **View:** mixed reality or virtual room
 - **Rotation snap:** learn phase, always, or off
 - **Volume**
+
+<p align="center"><img src="docs/screenshots/menu.png" width="300" alt="Main menu: Play, best score and height, and the Hand, Posture, View, Rotation snap and Volume settings"></p>
 
 The game pauses by itself when you take the headset off or open the system menu.
 
